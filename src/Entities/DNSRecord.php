@@ -43,6 +43,46 @@ class DNSRecord
     }
 
     /**
+     * Returns the hostname.
+     * 
+     * @return string
+     */
+    public function getHostname()
+    {
+        return $this->hostname;
+    }
+
+    /**
+     * Returns the type.
+     * 
+     * @return string
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * Returns the content.
+     * 
+     * @return string
+     */
+    public function getContent()
+    {
+        return $this->content;
+    }
+
+    /**
+     * Returns the prio.
+     * 
+     * @return int
+     */
+    public function getPrio()
+    {
+        return $this->prio;
+    }
+
+    /**
      * Create a new DNSRecord entity.
      * 
      * @param string $type
