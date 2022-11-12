@@ -1,0 +1,20 @@
+{
+    "name": "mrjoachim/vimexx-php-sdk",
+    "description": "Een Vimexx API client voor php.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MrJoachim\\VimexxPhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joachim Hofman",
+            "email": "zakelijk@joachimhofman.nl"
+        }
+    ],
+    "require": {
+        "str/str": "^1.1",
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
