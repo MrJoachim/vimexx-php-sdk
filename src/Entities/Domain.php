@@ -114,7 +114,7 @@ class Domain
         $domain->expirationDate = $data["expireDate"];
         $domain->hasDNSManagement = $data["dnsManagement"];
         $domain->transferredAway = $data["transferredAway"];
-        $domain->autoRenewEnabled = $data["autoExtend"] != "0";
+        $domain->autoRenewEnabled = isset($data["autoExtend"]) && $data["autoExtend"] != "0";
 
         return $domain;
     }
